@@ -30,16 +30,16 @@ var parallelism = (function($) { var _ = {
 						centerVertically: true,
 
 					// Delay (in ms) before showing the reel.
-						introDelay: 600,
+						introDelay: 300,
 
 					// Speed (in ms) at which to fade in reel.
 						introSpeed: 750,
 
 					// Height (in px) of items.
-						itemHeight: 300,
+						itemHeight: 250,
 
 					// Default width (in px) of width.
-						itemWidth: 300,
+						itemWidth: 350,
 
 					// Margin (in px) to preserve at the bottom of the viewport.
 						marginBottom: 0,
@@ -63,7 +63,7 @@ var parallelism = (function($) { var _ = {
 						paddingColor: '#fff',
 
 					// If true, reel scroll will reset on page refresh.
-						resetScroll: true,
+						resetScroll: false,
 
 					// Scales the scroll delta (1 = normal, 2 = double, 0.5 = half, etc.).
 						scrollFactor: 1,
